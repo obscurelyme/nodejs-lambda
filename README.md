@@ -10,3 +10,10 @@ To build and package into a .zip that can be deployed to AWS Lambda
 npm install
 npm run zip
 ```
+
+It is highly recommended to leverage [Jeeves](https://github.com/obscurelyme/jeeves) alongside this for development.
+
+To start the Lambda function locally
+```sh
+jeeves faas start
+```
